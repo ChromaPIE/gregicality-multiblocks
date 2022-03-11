@@ -259,10 +259,10 @@ public class GCYMMetaTileEntityLoader {
 
         ModHandler.addShapedRecipe(true, "large_circuit_assembler", GCYMMetaTileEntities.LARGE_CIRCUIT_ASSEMBLER.getStackForm(),
                 "RER", "CSC", "WPW",
-                'R', MetaItems.ROBOT_ARM_LUV.getStackForm(),
-                'E', MetaItems.EMITTER_LUV.getStackForm(),
+                'R', MetaItems.ROBOT_ARM_LuV.getStackForm(),
+                'E', MetaItems.EMITTER_LuV.getStackForm(),
                 'C', new UnificationEntry(circuit, MarkerMaterials.Tier.UV),
-                'P', MetaItems.CONVEYOR_MODULE_LUV.getStackForm(),
+                'P', MetaItems.CONVEYOR_MODULE_LuV.getStackForm(),
                 'S', MetaTileEntities.CIRCUIT_ASSEMBLER[LuV].getStackForm(),
                 'W', new UnificationEntry(cableGtSingle, NiobiumTitanium));
 
@@ -279,8 +279,8 @@ public class GCYMMetaTileEntityLoader {
                 "SCE", "CHC", "WCW",
                 'C', new UnificationEntry(circuit, MarkerMaterials.Tier.ZPM),
                 'H', MetaTileEntities.HULL[LuV].getStackForm(),
-                'S', MetaItems.SENSOR_LUV.getStackForm(),
-                'E', MetaItems.EMITTER_LUV.getStackForm(),
+                'S', MetaItems.SENSOR_LuV.getStackForm(),
+                'E', MetaItems.EMITTER_LuV.getStackForm(),
                 'W', new UnificationEntry(cableGtDouble, NiobiumTitanium));
 
         ModHandler.addShapedRecipe(true, "parallel_hatch_zpm", GCYMMetaTileEntities.PARALLEL_HATCH[ZPM - IV].getStackForm(),
